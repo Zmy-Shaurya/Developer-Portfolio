@@ -1,0 +1,47 @@
+/* Navigation - keep it simple */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(26, 26, 26, 0.9);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav-logo span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu a {
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+  color: #7c3aed;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* TODO: add mobile menu later */
+  }
+}

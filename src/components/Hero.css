@@ -5,15 +5,27 @@
   align-items: center;
   justify-content: center;
   padding: 0 2rem;
+  position: relative;
+  overflow: hidden;
+  background: #000;
 }
 
 .hero-content {
   max-width: 600px;
   text-align: center;
+  position: relative;
+  z-index: 10;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.hero-content:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin-bottom: 1rem;
 }
 

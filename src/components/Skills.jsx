@@ -2,9 +2,9 @@ import './Skills.css'
 
 function Skills() {
   const skills = {
-    "Frontend": ["React", "JavaScript", "HTML", "CSS"],
-    "Backend": ["Python", "C Programming"],
-    "Tools": ["Git", "GitHub", "VS Code"],
+    "Languages": ["C Programming", "Python","JavaScript", "Java","Lua","HTML","CSS"],
+    "Frameworks/Libraries": ["React JS","Tailwind CSS","NumPy","PyAutoGUI","Matplotlib"],
+    "Tools": ["Git", "GitHub", "VS Code", "Power BI","Docker","n8n","Vercel","Gh-pages"],
     "Learning": ["Node.js", "Advanced React"]
   }
 

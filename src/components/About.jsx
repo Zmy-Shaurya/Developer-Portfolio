@@ -28,7 +28,7 @@ function About() {
               <p>Projects</p>
             </div>
             <div className="stat">
-              <h3>2+</h3>
+              <h3>5+</h3>
               <p>Years Coding</p>
             </div>
             <div className="stat">

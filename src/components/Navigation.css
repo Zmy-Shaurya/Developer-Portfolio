@@ -1,25 +1,25 @@
 /* Navigation - keep it simple */
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
-  background: rgba(26, 26, 26, 0.9);
-  backdrop-filter: blur(10px);
+  background: rgba(26, 26, 26, 0.2);
+  backdrop-filter: blur(100px);
   z-index: 1000;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .nav-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin:0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   padding: 0 2rem;
 }
 
 .nav-logo span {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #7c3aed;
 }
@@ -36,12 +36,30 @@
 
 .nav-menu a:hover,
 .nav-menu a.active {
-  color: #7c3aed;
+  color: #8a4bf5;
+  text-decoration:underline;
+  
 }
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .nav-menu {
-    display: none; /* TODO: add mobile menu later */
+    position: fixed;
+    top: 0;
+    right: -200px; /* Hidden off-screen */
+    width: 200px;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.95);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    transition: right 0.3s ease-in-out;
+    }
+
+    .nav-menu.active {
+    right: 0; /* Slide in when active */
+    }
   }
 }

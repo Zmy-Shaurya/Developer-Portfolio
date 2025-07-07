@@ -5,7 +5,7 @@ function Navigation({ activeSection, scrollToSection }) {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          <span>Shaurya</span>
+          <span>Shaurya Pratap Singh</span>
         </div>
         <div className="nav-menu">
           <a href="#home" onClick={() => scrollToSection('home')} className={activeSection === 'home' ? 'active' : ''}>Home</a>

@@ -13,15 +13,10 @@
 .hero-content {
   max-width: 600px;
   text-align: center;
-  position: relative;
+  position:relative;
   z-index: 10;
     transition: transform 0.3s ease-in-out;
 
-}
-
-.hero-content:hover{
-    transform: scale(1.02);
-    transition: transform 0.3s ease-in-out;
 }
 
 .hero-title {
@@ -61,13 +56,16 @@
   border: none;
   border-radius: 6px;
   font-size: 1rem;
-  transition: background 0.3s;
   text-decoration: none;
   display: inline-block;
+  transition: all 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .btn-primary:hover {
   background: #6d28d9;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
 
 .btn-secondary {

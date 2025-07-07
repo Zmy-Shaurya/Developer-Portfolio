@@ -13,8 +13,9 @@
 .hero-content {
   max-width: 600px;
   text-align: center;
-  position:relative;
+  position: relative;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .hero-title {

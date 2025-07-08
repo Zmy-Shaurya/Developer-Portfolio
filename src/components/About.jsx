@@ -8,18 +8,18 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Started coding a couple years ago and somehow ended up here. Love building 
+              Started coding a few years ago and somehow ended up here. Love building 
               React apps and Python scripts, though I probably spend more time debugging 
               than I'd like to admit.
             </p>
             <p>
               Currently a student but spend most of my time on side projects. My latest 
-              obsession is this Solo Leveling inspired habit tracker - because who doesn't 
-              want to level up in real life?
+              obsession is this React based drum machine - because who doesn't 
+              want to have a little fun while coding, right?
             </p>
             <p>
               When I'm not staring at VS Code, I'm probably exploring new tech or 
-              wondering why my code worked yesterday but not today.
+              creating art but on a canvas instead of my VS code workspace.
             </p>
           </div>
           <div className="about-stats">

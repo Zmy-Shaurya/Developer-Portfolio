@@ -18,7 +18,7 @@ return (
                 <button className="btn-secondary" onClick={() => scrollToSection('contact')}>
                     Let's talk
                 </button>
-                <a href="/shaurya-resume.pdf" download className="btn-outline">
+                <a href="/shaurya-resume.pdf" download="shaurya-resume.pdf" className="btn-outline">
                     Resume
                 </a>
             </div>

@@ -1,6 +1,6 @@
 /* About section */
 .about {
-  background: #222;
+  background: rgb(29, 29, 29);
 }
 
 .container {
@@ -21,22 +21,39 @@
   grid-template-columns: 2fr 1fr;
   gap: 3rem;
   align-items: center;
+  border-radius: 20px;
+  background-color: #222;
+padding: 2rem;
+transition: scale 0.3s ease-in-out;
 }
+
+.about-content:hover {
+  scale: 1.01;
+  transition: scale 0.3s ease-in-out;
+}
+
 
 .about-text p {
   margin-bottom: 1.5rem;
   color: #ccc;
   line-height: 1.6;
+  font-size: 1.1rem;
 }
 
 .about-stats {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: rgb(29, 29, 29);
 }
 
 .stat {
   text-align: center;
+  background-color: #222;
+  border-radius: 15px;
+  padding: 1.5rem;
 }
 
 .stat h3 {
